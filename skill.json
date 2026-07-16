@@ -1,0 +1,27 @@
+{
+  "name": "genpark-vercel-kv-redis-cacher-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Vercel KV Redis semantic query cache compiler.",
+  "author": "genpark",
+  "category": "agentic",
+  "tags": [
+    "vercel",
+    "kv",
+    "cache"
+  ],
+  "inputs": {
+    "key": {
+      "type": "string"
+    },
+    "value": {
+      "type": "string"
+    }
+  },
+  "outputs": {
+    "cache_status": {
+      "type": "string"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
